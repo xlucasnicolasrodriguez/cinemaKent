@@ -1,0 +1,384 @@
+/*            FUENTES       */
+@font-face {
+    font-family: "montserrat-light";
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: "dmsans-regular";
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+@font-face {
+    font-family: "benguib";
+    src: url("../fonts/benguib.ttf");
+}
+
+@font-face {
+    font-family: "Vintage";
+    src: url("../fonts/Vintage.ttf");
+}
+
+
+/*         ESTILOS CSS     */
+body{
+    background-color: black;
+}
+
+.nav-link{
+    font-family: "Vintage";
+    font-size: 40px;
+    margin-left: 150px;
+}
+li a{
+    font-family: "benguib";
+    font-size: 18px;
+}
+.dropdown-menu{
+    margin-left: 250px;
+}
+
+main{
+    font-family: "montserrat-light";
+}
+
+.navbar {
+    background-color: rgba(236, 147, 13, 0);
+    --bs-navbar-hover-color: rgb(233, 233, 233);
+}
+
+.bannerCine{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCine{
+    font-size: 100px;
+    color: rgba(236, 132, 13, 0.699);
+    font-family: "Vintage";
+}
+
+.nav-link{
+    color: rgba(236, 132, 13, 0.699);
+    padding: 10px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+}
+
+.dropdown-menu.show{
+    background-color: rgba(238, 172, 29, 0.623);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+/*        BOTONES    */
+
+.btn-outline-success{
+    color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+.btn-outline-success:hover{
+    color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: white; 
+    
+}
+
+.btn-success{
+    background-color: chocolate;
+    border-color:black;
+}
+
+.btn-success:hover{
+    color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: white; 
+    
+}
+
+/*    FORMULARIO  Y HORARIOS  */
+.bodyForm{
+    background-image: url(/img/cinema-wallpaper-14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.horariosCine{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-size: 50px;
+    color: rgba(253, 217, 13, 0.63);
+    text-align: center;
+    font-family: "benguib";
+}
+
+table{
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    color: white;
+}
+
+.titleContacto{
+    color: white;
+    text-align: center;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    padding-top: 70px;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+}
+
+.contacto__text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: rgba(58, 61, 61, 0.5);
+    border-radius: 10px;
+}
+
+.contacto__text > p {
+    color: white;
+}
+
+.contacto__text--h2 {
+    color: rgb(0, 0, 0);
+}
+
+.contacto__text--h2, .contactTitles {
+    font-size: 1.75rem;
+    padding: 0;
+    text-align: start;
+}
+
+.contactTitles {
+    color: rgb(86, 116, 117);
+}
+
+.containerContacto p{
+    color: white;
+}
+
+legend{
+    color: white;
+}
+
+.container2 {
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+}
+
+.contacto__fieldset1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.contacto__fieldset2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.contacto__infoDetalles {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 20px;
+}
+
+.contacto__infoComunicate {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contacto__infoVisitanos {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    padding: 20px;
+}
+
+.buttomForm {
+    background-color: rgba(0, 0, 0, 0.692);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+textarea {
+    margin-left: 80px;
+}
+
+input, textarea, select {
+    border: none;
+    border-bottom: 1px solid rgba(71, 71, 71, 0.658);
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+}
+
+.contactTitles .bi {
+    font-size: 1rem;
+}
+
+.sectionReserva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#botonReserva{
+    width: 500px;
+    height: 50px;
+    background-color: rgba(221, 125, 14, 0.15);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+    font-family: "benguib";
+}
+
+#botonReserva:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+/* FOOTER */
+
+#footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fotterContainer{
+    position: relative;
+    width: 100%;
+}
+.articleFotter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8.125rem;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+    transition: all 1s cubic-bezier(0.5,0,0,1)
+}
+.articleFotter2{
+    width: 100%;
+    height: 8.125rem;
+    background-color: black;
+    overflow: hidden;
+    margin-top: -8.125rem;
+    transition: all 1s cubic-bezier(0.5,0,0,1);
+}
+.articleFotter2 p{
+    font-family: "benguib";
+    color: rgb(233, 220, 36);
+    font-size: 3rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.fotterContainer:hover .articleFotter2{
+    margin-top: -16.25rem;
+}
+.fotterContainer:hover .articleFotter1{
+    margin-top: 8.125rem;
+    position: relative;
+}
+
+.bi {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px;
+    color: darkslategrey;
+}
+
+/*FILM CORRIENDO*/
+
+.info__clients--h2 {
+    font-size: 1.875rem;
+    color: rgb(88, 88, 88);
+}
+
+.info__clients--icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.info__clients--icons .clients__icons--slider {
+    display: flex;
+    justify-content: space-between;
+    -webkit-animation: scroll 10s alternate linear infinite;
+            animation: scroll 10s alternate linear infinite;
+    width: 1600px;
+}
+
+.clients__icons--slider .slideicons {
+    width: 50px;
+}
+
+.clients__icons--slider .slideicons img {
+    width: 100%;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-800px);
+    }
+}
+
+@keyframes scroll {
+    0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-800px);
+    }
+}
